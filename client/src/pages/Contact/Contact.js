@@ -14,17 +14,30 @@ const Contact = () => {
                 <Card.Text>
                   <ul style={{ listStyle: "none" }}>
                     <li>
-                      <a href="eaim928@gmail.com">Email</a>
+                      <a href="mailto:eaim928@gmail.com">Email</a>
                     </li>
                     <li>
-                      <a href="#">Linkedin</a>
+                      <a
+                        href="https://www.linkedin.com/in/gina-im-161072a8/"
+                        target="_blank"
+                      >
+                        Linkedin
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Github</a>
+                      <a href="https://github.com/gim928" target="_blank">
+                        Github
+                      </a>
                     </li>
                   </ul>
                 </Card.Text>
-                <Button variant="dark">Download my resume!</Button>
+                <Button
+                  variant="dark"
+                  href="https://drive.google.com/file/d/1oHJ-aaJhkk1vVTQQrqzRuQ5Wsz6u0wfs/view?usp=sharing"
+                  target="_blank"
+                >
+                  Download my resume!
+                </Button>
               </Card.Body>
             </Card>
           </Col>

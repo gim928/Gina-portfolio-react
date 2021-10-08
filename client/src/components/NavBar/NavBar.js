@@ -12,7 +12,12 @@ const NavBar = () => {
             <Nav.Link href="/">About Me</Nav.Link>
             <Nav.Link href="/portfolio">Portfolio</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
-            <Nav.Link href="/resume">Resume</Nav.Link>
+            <Nav.Link
+              href="https://drive.google.com/file/d/1oHJ-aaJhkk1vVTQQrqzRuQ5Wsz6u0wfs/view?usp=sharing"
+              target="_blank"
+            >
+              Resume
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>

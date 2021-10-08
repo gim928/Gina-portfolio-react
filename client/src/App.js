@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import AboutMe from "./pages/AboutMe/AboutMe";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./pages/Contact/Contact";
+import Resume from "./pages/Resume/Resume";
 
 import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
 // import {
