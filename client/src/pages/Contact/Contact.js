@@ -51,9 +51,12 @@ const Contact = () => {
               className="mb-3"
               controlId="exampleForm.ControlTextarea1"
             >
-              <Form.Label>Example textarea</Form.Label>
+              <Form.Label>Enter your comment here!</Form.Label>
               <Form.Control as="textarea" rows={3} />
             </Form.Group>
+            <Button variant="dark" class="contact">
+              Submit!
+            </Button>
           </Form>
         </Row>
       </Container>

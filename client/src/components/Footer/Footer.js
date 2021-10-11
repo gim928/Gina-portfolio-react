@@ -1,17 +1,37 @@
 import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
-import "./Footer.css";
+import Link from "@mui/material/Link";
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
+import Box from "@mui/material/Box";
 
+import "./Footer.css";
+function Copyright() {
+  return (
+    <Typography variant="body2" color="text.secondary" align="center">
+      {"Copyright © "}
+      <Link color="inherit" href="https://material-ui.com/">
+        Gina's Portfolio
+      </Link>{" "}
+      {new Date().getFullYear()}
+      {"."}
+    </Typography>
+  );
+}
 const Footer = () => {
   return (
-    <div className="footer">
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Gina Im</Navbar.Brand>
-          <Nav.Link href="#AboutMe">Github</Nav.Link>
-          <Nav.Link href="#portfolio">LinkedIn</Nav.Link>=
-        </Container>
-      </Navbar>
+    <div>
+      <Box sx={{ bgcolor: "background.paper", p: 6 }} component="footer">
+        <Typography variant="h6" align="center" gutterBottom></Typography>
+        <Typography
+          variant="subtitle1"
+          align="center"
+          color="text.secondary"
+          component="p"
+        >
+          Gina Im
+        </Typography>
+        <Copyright />
+      </Box>
     </div>
   );
 };
