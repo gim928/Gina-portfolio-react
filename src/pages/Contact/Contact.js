@@ -33,7 +33,7 @@ const Contact = () => {
                 </Card.Text>
                 <Button
                   variant="dark"
-                  href="https://drive.google.com/file/d/1oHJ-aaJhkk1vVTQQrqzRuQ5Wsz6u0wfs/view?usp=sharing"
+                  href="https://drive.google.com/file/d/19fusH6ATluhznFUJvyev45Zj_ylw1Prz/view?usp=sharing"
                   target="_blank"
                 >
                   Download my resume!
