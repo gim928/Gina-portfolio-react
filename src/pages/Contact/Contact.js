@@ -33,7 +33,7 @@ const Contact = () => {
                 </Card.Text>
                 <Button
                   variant="dark"
-                  href="https://drive.google.com/file/d/19fusH6ATluhznFUJvyev45Zj_ylw1Prz/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1jCZsexsm4QhecOupIIiybNNfXbLSzZOU/view?usp=sharing"
                   target="_blank"
                 >
                   Download my resume!
@@ -41,8 +41,8 @@ const Contact = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col></Col>
-          <Form>
+
+          {/* <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Email address</Form.Label>
               <Form.Control type="email" placeholder="name@example.com" />
@@ -57,7 +57,7 @@ const Contact = () => {
             <Button variant="dark" class="contact">
               Submit!
             </Button>
-          </Form>
+          </Form> */}
         </Row>
       </Container>
     </>

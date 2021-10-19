@@ -4,9 +4,8 @@ import Footer from "./components/Footer/Footer";
 import AboutMe from "./pages/AboutMe/AboutMe";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./pages/Contact/Contact";
-import Resume from "./pages/Resume/Resume";
 
-import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import {
 //   ApolloClient,
 //   InMemoryCache,
@@ -23,7 +22,7 @@ import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <NavBar />
       <Route exact path="/">
         <AboutMe />
@@ -35,7 +34,7 @@ function App() {
         <Contact />
       </Route>
       <Footer />
-    </HashRouter>
+    </Router>
   );
 }
 

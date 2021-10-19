@@ -13,7 +13,7 @@ const NavBar = () => {
             <Nav.Link href="/portfolio">Portfolio</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
             <Nav.Link
-              href="https://drive.google.com/file/d/19fusH6ATluhznFUJvyev45Zj_ylw1Prz/view?usp=sharing"
+              href="https://drive.google.com/file/d/1jCZsexsm4QhecOupIIiybNNfXbLSzZOU/view?usp=sharing"
               target="_blank"
             >
               Resume

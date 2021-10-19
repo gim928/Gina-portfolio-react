@@ -9,9 +9,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {"Copyright © "}
-      <Link color="inherit" href="https://material-ui.com/">
-        Gina's Portfolio
-      </Link>{" "}
+      <Link color="inherit" href="https://github.com/gim928"></Link>{" "}
       {new Date().getFullYear()}
       {"."}
     </Typography>
